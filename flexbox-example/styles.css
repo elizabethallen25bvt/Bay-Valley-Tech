@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-.red, .yellow, .blue {
+.red, .yellow, .blue, .teal, .cyan {
     height: 200px;
     width: 200px;
     display:flex;
@@ -31,4 +31,13 @@
 .blue {
   background-color: blue;
     align-self: flex-end;
+}
+
+.teal{
+  background-color: teal;
+}
+.cyan{
+  background-color: cyan;
+  align-self: flex-start;
+  order: -2
 }
